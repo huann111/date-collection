@@ -1,0 +1,17 @@
+﻿生成启动时间为 2017/9/19 星期二 下午 9:33:59。
+     1>项目“E:\曲线波形\ComCtrl宝\ComCtrl.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W0 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu"stdafx.h" /Fp".\Debug\ComCtrl.pch" /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt ChangeDlg.cpp ComCtrl.cpp ComCtrlDlg.cpp ConfigDlg.cpp PassDlg.cpp
+         ComCtrlDlg.cpp
+         正在生成代码...
+         正在编译...
+         PassDlg.cpp
+         ConfigDlg.cpp
+         ComCtrl.cpp
+         ChangeDlg.cpp
+         正在生成代码...
+     1>已完成生成项目“E:\曲线波形\ComCtrl宝\ComCtrl.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.41

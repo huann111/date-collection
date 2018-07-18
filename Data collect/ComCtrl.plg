@@ -1,0 +1,134 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ComCtrl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ComCtrl.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ComCtrl.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7F.tmp" with contents
+[
+/nologo /MT /GR /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/ComCtrl.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChangeDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartAxis.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartAxisLabel.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartBarSerie.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartCandlestickSerie.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartCrossHairCursor.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartCtrl.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartCursor.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartDateTimeAxis.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartDragLineCursor.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartFont.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartGanttSerie.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartGradient.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartGrid.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartLegend.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartLineSerie.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartLogarithmicAxis.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartPointsSerie.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartScrollBar.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartSerie.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartStandardAxis.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartSurfaceSerie.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartTitle.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ChartCtrl_source\ChartXYSerie.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\Com.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ComCtrl.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ComCtrlDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ConfigDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\PassDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\ReportCtrl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7F.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP80.tmp" with contents
+[
+/nologo /MT /GR /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/ComCtrl.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\桌面\编程结果\ComCtrl宝\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP80.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP81.tmp" with contents
+[
+SkinPPWTL.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ComCtrl.pdb" /machine:I386 /out:"Release/ComCtrl.exe" /IGNORE:4089 
+".\Release\ChangeDlg.obj"
+".\Release\ChartAxis.obj"
+".\Release\ChartAxisLabel.obj"
+".\Release\ChartBarSerie.obj"
+".\Release\ChartCandlestickSerie.obj"
+".\Release\ChartCrossHairCursor.obj"
+".\Release\ChartCtrl.obj"
+".\Release\ChartCursor.obj"
+".\Release\ChartDateTimeAxis.obj"
+".\Release\ChartDragLineCursor.obj"
+".\Release\ChartFont.obj"
+".\Release\ChartGanttSerie.obj"
+".\Release\ChartGradient.obj"
+".\Release\ChartGrid.obj"
+".\Release\ChartLegend.obj"
+".\Release\ChartLineSerie.obj"
+".\Release\ChartLogarithmicAxis.obj"
+".\Release\ChartPointsSerie.obj"
+".\Release\ChartScrollBar.obj"
+".\Release\ChartSerie.obj"
+".\Release\ChartStandardAxis.obj"
+".\Release\ChartSurfaceSerie.obj"
+".\Release\ChartTitle.obj"
+".\Release\ChartXYSerie.obj"
+".\Release\Com.obj"
+".\Release\ComCtrl.obj"
+".\Release\ComCtrlDlg.obj"
+".\Release\ConfigDlg.obj"
+".\Release\PassDlg.obj"
+".\Release\ReportCtrl.obj"
+".\Release\StdAfx.obj"
+".\Release\ComCtrl.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP81.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChangeDlg.cpp
+ChartAxis.cpp
+ChartAxisLabel.cpp
+ChartBarSerie.cpp
+ChartCandlestickSerie.cpp
+ChartCrossHairCursor.cpp
+ChartCtrl.cpp
+ChartCursor.cpp
+ChartDateTimeAxis.cpp
+ChartDragLineCursor.cpp
+ChartFont.cpp
+ChartGanttSerie.cpp
+ChartGradient.cpp
+ChartGrid.cpp
+ChartLegend.cpp
+ChartLineSerie.cpp
+ChartLogarithmicAxis.cpp
+ChartPointsSerie.cpp
+ChartScrollBar.cpp
+ChartSerie.cpp
+Generating Code...
+Compiling...
+ChartStandardAxis.cpp
+ChartSurfaceSerie.cpp
+ChartTitle.cpp
+ChartXYSerie.cpp
+Com.cpp
+ComCtrl.cpp
+ComCtrlDlg.cpp
+ConfigDlg.cpp
+PassDlg.cpp
+ReportCtrl.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ComCtrl.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

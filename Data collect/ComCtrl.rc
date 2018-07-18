@@ -1,0 +1,440 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ComCtrl.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_COMCTRL_DIALOG DIALOGEX 0, 0, 659, 468
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_VSCROLL | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "火灾实验测试系统V1.0--南京都盟消防技术有限公司"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "开始采集",IDC_BTN_OPEN,329,423,50,29,NOT WS_VISIBLE
+    PUSHBUTTON      "自动获取",IDC_BTN_SEND,435,204,56,17,NOT WS_VISIBLE
+    PUSHBUTTON      "清除显示内容",IDC_BTN_CLEAR,518,205,56,13,NOT WS_VISIBLE
+    PUSHBUTTON      "查询数据",IDC_BTN_CHECK,497,185,58,23,NOT WS_VISIBLE
+    PUSHBUTTON      "退出系统",IDCANCEL,563,36,50,29
+    PUSHBUTTON      "查询曲线",IDC_BTN_PC,385,129,58,22,NOT WS_VISIBLE
+    PUSHBUTTON      "显示>>",IDC_BTN_ZT,361,187,42,16,NOT WS_VISIBLE
+    CTEXT           "查询地点",IDC_STATIC,194,287,35,11,NOT WS_VISIBLE
+    CONTROL         "List2",IDC_LIST2,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,90,337,553,84
+    LTEXT           "查询时间",IDC_STATIC,556,261,33,18,NOT WS_VISIBLE
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER1,"SysDateTimePick32",DTS_RIGHTALIGN | NOT WS_VISIBLE | WS_TABSTOP,408,183,82,15
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER2,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,518,13,110,15
+    LTEXT           "---",IDC_STATIC,399,165,19,16,NOT WS_VISIBLE
+    PUSHBUTTON      "配置参数",IDC_BTN_CONFIGDATA,514,272,24,10,NOT WS_VISIBLE
+    EDITTEXT        ID_EDIT_LOG,505,304,75,21,ES_MULTILINE | ES_READONLY | ES_WANTRETURN | NOT WS_VISIBLE | WS_VSCROLL
+    CONTROL         "Custom1",IDC_CUSTOM_CHART,"ChartCtrl",WS_CLIPCHILDREN | WS_TABSTOP,90,100,520,216
+    PUSHBUTTON      "压力曲线",IDC_BTNPF,183,308,45,15,NOT WS_VISIBLE
+    PUSHBUTTON      "氧气浓度曲线",IDC_BTNV,328,297,56,15,NOT WS_VISIBLE
+    PUSHBUTTON      "电流曲线",IDC_BTNI,451,295,45,15,NOT WS_VISIBLE
+    PUSHBUTTON      "温度曲线",IDC_BTNT,383,297,45,15,NOT WS_VISIBLE
+    CONTROL         "压力值查询",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE | WS_GROUP | WS_TABSTOP,325,147,51,9
+    CONTROL         "温度值查询",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE | WS_TABSTOP,316,176,51,9
+    CONTROL         "氧气值查询",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE | WS_TABSTOP,345,218,51,9
+    LTEXT           "温度",IDC_TEMP_LABEL,252,311,40,14,NOT WS_VISIBLE
+    EDITTEXT        IDC_TEMP_NO,272,79,122,18,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    LTEXT           "氧气浓度",IDC_O2_LABEL,364,232,40,14,NOT WS_VISIBLE
+    EDITTEXT        IDC_O2_NO,409,236,37,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        IDC_PRESSA_NO,249,263,37,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "B处压力值",IDC_PRESSB_LABEL,329,267,37,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_PRESSB_NO,367,263,37,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "C处压力值",IDC_PRESSC_LABEL,411,267,37,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_PRESSC_NO,450,263,37,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    PUSHBUTTON      "测试终止",IDC_BUTTON5,255,428,48,28,NOT WS_VISIBLE
+    PUSHBUTTON      "账号切换",IDC_BUTTON6,386,36,50,29
+    PUSHBUTTON      "使用说明",IDC_BUTTON7,327,36,50,29
+    PUSHBUTTON      "数据查询",IDC_BUTTON8,27,337,50,29
+    PUSHBUTTON      "灭火实验",IDC_BUTTON9,75,171,50,29,NOT WS_VISIBLE
+    LTEXT           "A处压力值",IDC_PRESSA_LABEL,289,294,37,8,NOT WS_VISIBLE
+    LTEXT           "火灾实验测试系统",IDC_TITLE,6,13,102,23,WS_TABSTOP
+    PUSHBUTTON      "手动获取",IDC_BTN_MANUALSEND,481,241,56,15,NOT WS_VISIBLE
+    PUSHBUTTON      "参数设置",IDC_BUTTON4,445,35,50,29
+    LTEXT           "南京都盟消防技术有限公司",IDC_AUTHOR,77,32,168,23,NOT WS_GROUP
+    CONTROL         165,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE,15,37,54,51
+    LTEXT           "Nanjing Dumeng Fire Fighting Technology Company Ltd",IDC_AUTHER_ENG,75,47,249,28
+    PUSHBUTTON      "数据保存",IDC_SAVE,26,214,50,29
+    LTEXT           "一.测试项目",IDC_STATIC,26,107,45,8
+    LTEXT           "二.历史数据查询",IDC_STATIC,26,313,61,8
+    PUSHBUTTON      "复位清零",IDC_RESET,567,426,50,29
+    PUSHBUTTON      "切换视频",IDC_BUTTON11,503,35,50,30
+    PUSHBUTTON      "开始灭火",IDC_BUTTON14,27,171,50,27,NOT WS_VISIBLE
+    PUSHBUTTON      "test",IDC_BUTTON15,30,380,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Button13",IDC_BUTTON13,31,410,50,14,NOT WS_VISIBLE
+    CONTROL         "温度",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_GROUP,613,122,30,19
+    CONTROL         "压力",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,613,99,31,19
+    PUSHBUTTON      "Button17",IDC_BUTTON17,35,439,50,14,NOT WS_VISIBLE
+    CONTROL         "开始采集",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,435,427,50,29
+    CONTROL         "采集终止",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,503,428,48,28
+    CONTROL         "开始灭火",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,119,429,50,27
+    CONTROL         "灭火实验",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,26,127,50,27
+    COMBOBOX        IDC_COMBO_CHOICE,38,275,147,36,CBS_DROPDOWN | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG1 DIALOG 0, 0, 405, 180
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "配置参数"
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "配置",IDC_STATIC,15,21,376,139
+    CTEXT           "请输入地点",IDC_STATIC,30,39,56,9
+    CTEXT           "请配置与地点相连的串口号",IDC_STATIC,137,39,101,9
+    CTEXT           "请配置CT匝数比",IDC_STATIC,243,39,62,9
+    CTEXT           "请配置电容组数",IDC_STATIC,319,39,56,9
+    EDITTEXT        IDC_EDIT_ADD1,33,58,96,16,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADD2,33,82,96,16,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_COM1,163,58,49,44,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_COM2,163,83,49,44,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "1:",IDC_STATIC,251,59,11,8
+    EDITTEXT        IDC_EDIT_CT1,264,58,36,14,ES_AUTOHSCROLL
+    CTEXT           "1:",IDC_STATIC,251,83,11,8
+    EDITTEXT        IDC_EDIT_CT2,264,81,36,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CP1,325,58,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CP2,325,79,35,15,ES_AUTOHSCROLL
+    CTEXT           "请设置自动接收数据的时间间隔",IDC_STATIC,29,115,119,12
+    EDITTEXT        IDC_EDIT_TIME,151,114,25,13,ES_AUTOHSCROLL
+    CTEXT           "min",IDC_STATIC,178,116,19,10
+    PUSHBUTTON      "保存配置",IDOK,280,136,42,14
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 565, 290
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "用户登录"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "登录",IDOK,354,142,50,15
+    PUSHBUTTON      "退出",IDCANCEL,488,142,50,15
+    CTEXT           "用户名",IDC_STATIC,365,70,38,11
+    EDITTEXT        IDC_NAME,426,64,86,16,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD,426,96,86,15,ES_PASSWORD | ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC1,343,43,203,151
+    CTEXT           "密     码",IDC_STATIC,365,96,38,16,SS_CENTERIMAGE
+    CONTROL         139,IDC_STATIC,"Static",SS_BITMAP,18,21,317,233
+    CONTROL         "  记住密码",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,354,121,55,13
+    PUSHBUTTON      "修改密码",IDC_BTN_CHANGE,487,170,50,16
+    CONTROL         159,IDC_STATIC,"Static",SS_BITMAP,340,233,218,16
+END
+
+IDD_DIALOG3 DIALOG 0, 0, 190, 127
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "修改密码"
+FONT 9, "宋体"
+BEGIN
+    CTEXT           "原有密码",IDC_STATIC,17,18,46,12
+    CTEXT           "新密码",IDC_STATIC,17,40,46,12
+    CTEXT           "重复新密码",IDC_STATIC,17,62,46,12
+    EDITTEXT        IDC_EDIT1,80,15,83,13,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,80,37,83,13,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,80,59,83,13,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "确定",IDOK,20,93,39,12
+    PUSHBUTTON      "退出",IDCANCEL,123,93,39,12
+END
+
+IDD_DIALOG4 DIALOGEX 0, 0, 453, 282
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "历史数据查询"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_DATETIMEPICKER3,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,57,47,103,14
+    LTEXT           "---",IDC_STATIC,165,49,19,15
+    LTEXT           "查询时间",IDC_STATIC,15,50,33,17
+    CONTROL         "",IDC_DATETIMEPICKER4,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,176,47,95,14
+    PUSHBUTTON      "查询数据",IDC_BTN_CHECK,289,44,58,22
+    PUSHBUTTON      "查询曲线",IDC_BTN_PC,359,44,58,20
+    LTEXT           "历史数据查询",IDC_DATA_SEARCH_LABEL,191,20,49,8
+END
+
+IDD_DIALOG5 DIALOGEX 0, 0, 309, 177
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "工具使用说明"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "欢迎使用",IDC_STATIC,119,62,33,8
+END
+
+IDD_DIALOG6 DIALOGEX 0, 0, 309, 177
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "参数配置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "配置",IDC_STATIC,25,26,258,109
+    LTEXT           "请输入最低显示值",IDC_STATIC,69,42,65,8
+    LTEXT           "温度",IDC_STATIC,37,60,17,8
+    LTEXT           "压力",IDC_STATIC,37,82,17,8
+    LTEXT           "氧浓度",IDC_STATIC,37,106,25,8
+    EDITTEXT        IDC_TEMP_SET,75,58,47,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PRESS_SET,75,81,47,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_O2_SET,75,104,47,14,ES_AUTOHSCROLL
+    LTEXT           "请输入最高显示值",IDC_STATIC,193,42,65,8
+    EDITTEXT        IDC_TEMP_HIGH_SET,199,56,47,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PRESS_SET_HIGH,199,80,47,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_O2_SET_HIGH,199,104,47,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "保存配置",IDC_SAVE_SET,223,141,50,14
+END
+
+IDD_DIALOG7 DIALOGEX 0, 0, 309, 177
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "灭火测试"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "开始采集",IDC__START_TEST,182,145,50,14
+    PUSHBUTTON      "终止采集",IDC_STOP_TEST,242,145,50,14
+END
+
+IDD_DIALOG8 DIALOGEX 0, 0, 309, 177
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "保存数据"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,198,156,50,14
+    PUSHBUTTON      "取消",IDCANCEL,252,156,50,14
+    LTEXT           "文件名",IDC_STATIC,41,50,25,8
+    EDITTEXT        IDC_EDIT1,83,47,103,14,ES_AUTOHSCROLL
+    LTEXT           "保存路径",IDC_STATIC,41,74,33,8
+    EDITTEXT        IDC_EDIT_SAVEPATH,85,74,102,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "选择目录",IDC_BUTTON1,197,75,50,14
+END
+
+IDD_DIALOG9 DIALOGEX 0, 0, 261, 102
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "是否保存"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "是",IDOK,87,52,50,14
+    PUSHBUTTON      "否",IDCANCEL,149,54,50,14
+    LTEXT           "是否保存数据",IDC_STATIC,63,28,119,22
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x10000L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "低压无功补偿装置运行情况检测系统"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_COMCTRL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 467
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 398
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 558
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 120
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 446
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 275
+    END
+
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_DIALOG6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_DIALOG7, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_DIALOG8, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_DIALOG9, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 254
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP2             BITMAP                  "res\\00.bmp"
+IDB_BITMAP3             BITMAP                  "res\\45546.bmp"
+IDB_BITMAP4             BITMAP                  "res\\gfdgd.bmp"
+IDB_BITMAP5             BITMAP                  "res\\bitmap5.bmp"
+IDB_BITMAP6             BITMAP                  "res\\bitmap6.bmp"
+IDB_BITMAP7             BITMAP                  "res\\bitmap7.bmp"
+IDB_BITMAP8             BITMAP                  "res\\bitmap8.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ComCtrl.ico"
+IDI_ICON1               ICON                    "res\\icon1.ico"
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\ComCtrl.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

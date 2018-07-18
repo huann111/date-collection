@@ -1,0 +1,31 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "ComCtrl"=.\ComCtrl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+    {612A8624-0FB3-11CE-8747-524153480004}
+    {B6C10489-FB89-11D4-93C9-006008A7EED4}
+}}}
+
+###############################################################################
+
